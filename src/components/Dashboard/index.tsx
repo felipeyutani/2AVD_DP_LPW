@@ -81,7 +81,7 @@ export function Dashboard(){
                 <p></p>
                 <a href='/'><button type="button" onClick={() => DeleteEventos(event.id)}>Excluir</button></a>
                 <button type="button" name='like' onClick={() => Like(event.id)}>Like - {event.like}</button>
-                <button type="button" name='deslike' onClick={() => Dislike(event.id)}>Dislike- {event.dislike}</button>
+                <button type="button" name='deslike' onClick={() => Dislike(event.id)}>Dislike - {event.dislike}</button>
             </li>
           )}
         </ul>
